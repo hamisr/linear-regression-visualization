@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/linear-regression-visualization/static/css/main.7bf9ee29.chunk.css",
-    "main.js": "/linear-regression-visualization/static/js/main.384785f7.chunk.js",
-    "main.js.map": "/linear-regression-visualization/static/js/main.384785f7.chunk.js.map",
+    "main.css": "/linear-regression-visualization/static/css/main.e0ad17bf.chunk.css",
+    "main.js": "/linear-regression-visualization/static/js/main.c9569e96.chunk.js",
+    "main.js.map": "/linear-regression-visualization/static/js/main.c9569e96.chunk.js.map",
     "runtime-main.js": "/linear-regression-visualization/static/js/runtime-main.c1243ad2.js",
     "runtime-main.js.map": "/linear-regression-visualization/static/js/runtime-main.c1243ad2.js.map",
-    "static/js/2.202fe975.chunk.js": "/linear-regression-visualization/static/js/2.202fe975.chunk.js",
-    "static/js/2.202fe975.chunk.js.map": "/linear-regression-visualization/static/js/2.202fe975.chunk.js.map",
+    "static/js/2.8d7ae53d.chunk.js": "/linear-regression-visualization/static/js/2.8d7ae53d.chunk.js",
+    "static/js/2.8d7ae53d.chunk.js.map": "/linear-regression-visualization/static/js/2.8d7ae53d.chunk.js.map",
     "index.html": "/linear-regression-visualization/index.html",
-    "precache-manifest.afe8ff096eb760e098350fb62a60e9ca.js": "/linear-regression-visualization/precache-manifest.afe8ff096eb760e098350fb62a60e9ca.js",
+    "precache-manifest.1fd3321b3cdab8e7a662b93e65348808.js": "/linear-regression-visualization/precache-manifest.1fd3321b3cdab8e7a662b93e65348808.js",
     "service-worker.js": "/linear-regression-visualization/service-worker.js",
-    "static/css/main.7bf9ee29.chunk.css.map": "/linear-regression-visualization/static/css/main.7bf9ee29.chunk.css.map",
-    "static/js/2.202fe975.chunk.js.LICENSE.txt": "/linear-regression-visualization/static/js/2.202fe975.chunk.js.LICENSE.txt"
+    "static/css/main.e0ad17bf.chunk.css.map": "/linear-regression-visualization/static/css/main.e0ad17bf.chunk.css.map",
+    "static/js/2.8d7ae53d.chunk.js.LICENSE.txt": "/linear-regression-visualization/static/js/2.8d7ae53d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c1243ad2.js",
-    "static/js/2.202fe975.chunk.js",
-    "static/css/main.7bf9ee29.chunk.css",
-    "static/js/main.384785f7.chunk.js"
+    "static/js/2.8d7ae53d.chunk.js",
+    "static/css/main.e0ad17bf.chunk.css",
+    "static/js/main.c9569e96.chunk.js"
   ]
 }
