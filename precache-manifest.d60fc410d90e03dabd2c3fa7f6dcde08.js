@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e44679833d21b182f7f4bb8b38dc0171",
+    "revision": "e3f5514701e12c084aa960d1ef561d1e",
     "url": "/linear-regression-visualization/index.html"
   },
   {
-    "revision": "9ff88dde5fd6c32d1939",
+    "revision": "3fa9669bca94e0a84aea",
     "url": "/linear-regression-visualization/static/css/main.d13e92fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/linear-regression-visualization/static/js/2.8d7ae53d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ff88dde5fd6c32d1939",
-    "url": "/linear-regression-visualization/static/js/main.3588864e.chunk.js"
+    "revision": "3fa9669bca94e0a84aea",
+    "url": "/linear-regression-visualization/static/js/main.a3cf8a79.chunk.js"
   },
   {
     "revision": "5bdee7fdd9f81728b00f",
