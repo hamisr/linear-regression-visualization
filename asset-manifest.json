@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/linear-regression-visualization/static/css/main.7bf9ee29.chunk.css",
+    "main.js": "/linear-regression-visualization/static/js/main.384785f7.chunk.js",
+    "main.js.map": "/linear-regression-visualization/static/js/main.384785f7.chunk.js.map",
+    "runtime-main.js": "/linear-regression-visualization/static/js/runtime-main.c1243ad2.js",
+    "runtime-main.js.map": "/linear-regression-visualization/static/js/runtime-main.c1243ad2.js.map",
+    "static/js/2.202fe975.chunk.js": "/linear-regression-visualization/static/js/2.202fe975.chunk.js",
+    "static/js/2.202fe975.chunk.js.map": "/linear-regression-visualization/static/js/2.202fe975.chunk.js.map",
+    "index.html": "/linear-regression-visualization/index.html",
+    "precache-manifest.afe8ff096eb760e098350fb62a60e9ca.js": "/linear-regression-visualization/precache-manifest.afe8ff096eb760e098350fb62a60e9ca.js",
+    "service-worker.js": "/linear-regression-visualization/service-worker.js",
+    "static/css/main.7bf9ee29.chunk.css.map": "/linear-regression-visualization/static/css/main.7bf9ee29.chunk.css.map",
+    "static/js/2.202fe975.chunk.js.LICENSE.txt": "/linear-regression-visualization/static/js/2.202fe975.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1243ad2.js",
+    "static/js/2.202fe975.chunk.js",
+    "static/css/main.7bf9ee29.chunk.css",
+    "static/js/main.384785f7.chunk.js"
+  ]
+}
