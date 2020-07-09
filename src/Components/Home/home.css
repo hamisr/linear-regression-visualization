@@ -21,6 +21,11 @@
   justify-content: center;
   width:70%;
 }
+.editorDiv{
+  width:70%;
+  height:50vh;
+  border: 0.1vw black solid;
+}
 textarea{
   height:50vh;
   width:50vw;

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
 import { connect } from "react-redux";
-import "./home.css";
+
+import { Editor, EditorState } from "draft-js";
 import { Button, Slider } from "@material-ui/core";
 
+import "./home.css";
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -12,8 +13,9 @@ class Home extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
-  handleChange = (event) => {
-    this.props.updateInput(event.target.value);
+  handleChange = (editorState) => {
+    this.props.updateState(editorState);
+    this.props.updateInput(editorState.getCurrentContent().getPlainText());
   };
   handleClick = () => {
     this.props.calculateRegression();
@@ -51,16 +53,18 @@ class Home extends Component {
           </div>
         </div>
         <label>2D Data to be fitted</label>
-        <textarea
-          placeholder="X data followed by Y data
-1,2,3,4,5
-2,3,4,5,6
-        "
-          value={this.props.inputData}
-          onChange={this.handleChange}
-        ></textarea>
         <br />
-        <Button onClick={this.handleClick} variant="outlined">Calculate</Button>
+        <div className="editorDiv">
+          <Editor
+            placeholder="1,2,3,4,5
+            1,2,3,4,5"
+            editorState={this.props.editorState}
+            onChange={this.handleChange}
+          />
+        </div>
+        <Button onClick={this.handleClick} variant="outlined">
+          Calculate
+        </Button>
       </div>
     );
   }
@@ -70,10 +74,14 @@ const mapStateToProps = (state) => ({
   inputData: state.page.inputString,
   alpha: state.page.alpha,
   iterations: state.page.iterations,
+  editorState: state.page.editorState,
 });
 const mapDispatchToProps = (dispatch) => ({
   updateInput: (inputData) => {
     dispatch({ type: "updateInput", input: inputData });
+  },
+  updateState: (state) => {
+    dispatch({ type: "updateState", state: state });
   },
   calculateRegression: () => {
     dispatch({ type: "calculateRegression" });

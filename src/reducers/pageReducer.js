@@ -1,6 +1,8 @@
+import {EditorState} from "draft-js";
 import formatInput from "../linearRegression/formatInput";
 import linearRegression from "../linearRegression/linearRegression";
 const initialState = {
+  editorState: EditorState.createEmpty(),
   inputString: "",
   inputData: [],
   arrayData: [
@@ -19,6 +21,7 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case "updateInput":
+      console.log(action.input)
       return {
         ...state,
         inputString: action.input,
@@ -57,6 +60,11 @@ export default (state = initialState, action) => {
         ...state,
         iterations: action.iterations,
       };
+    case "updateState":
+      return{
+        ...state,
+        editorState: action.state,
+      }
     default:
       return state;
   }
