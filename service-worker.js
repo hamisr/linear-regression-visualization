@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/linear-regression-visualization/precache-manifest.89918a4db3bcf72b1a6267c5474f0c66.js"
+  "/linear-regression-visualization/precache-manifest.88044dd9bf52958fc12adf6d52f9694b.js"
 );
 
 self.addEventListener('message', (event) => {
